@@ -12,8 +12,8 @@ community:
     We are a community of engineers, developers, and enthusiasts exploring
     Kubernetes, cloud-native technologies, and the CNCF ecosystem in Sri Lanka.
     Join us to learn, share, and grow together.
-  logoUrl: "https://raw.githubusercontent.com/k8ssrilanka/brand-assets/main/colored%20logo.png"
-  faviconUrl: "public/favicon.ico"
+  logoUrl: "/k8sssl-logo.png"
+  faviconUrl: "/favicon.ico"
   themeColor: "#0F62FE"        # Used for CTA button and accent colours
 
 # ─── Social Media ────────────────────────────────────────────────────────────
@@ -77,7 +77,7 @@ pastEvents:
     date: "2024-11-15"
     location: "Colombo, Sri Lanka"
     description: "Kubernetes Community Day Sri Lanka — a full-day conference with talks, workshops, and networking. Sri Lanka's first KCD event!"
-    imageUrl: "/events/kcd2024.jpg"
+    # imageUrl: "/events/kcd2024.jpg"
     recordingUrl: "https://www.youtube.com/playlist?list=PLj6h78yzYM"
     slidesUrl: "https://speakerdeck.com/cncgsrilanka"
 
