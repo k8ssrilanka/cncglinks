@@ -86,21 +86,10 @@ pastEvents:
     location: "Virtual"
     description: "Suresh presents the open-source platform combining machine learning capabilities with Kubernetes orchestration."
 
-  - title: "Cloud Native Meetup #6 — GitOps with Argo CD"
-    date: "2024-08-10"
-    location: "WSO2, Colombo"
-    description: "Hands-on workshop covering GitOps principles and Argo CD in practice."
-    recordingUrl: "https://www.youtube.com/watch?v=example"
-
   - title: "Behind the Scenes of Uwubernetes — A Conversation with Kat Cosgrove"
     date: "2024-05-28"
     location: "Virtual"
     description: "Discussion featuring Kat Cosgrove sharing behind-the-scenes perspectives on Uwubernetes."
-
-  - title: "Cloud Native Meetup #5 — Observability"
-    date: "2024-05-18"
-    location: "99x, Colombo"
-    description: "Deep dive into observability with Prometheus, Grafana, and OpenTelemetry."
 
   - title: "MLOps with Flyte/Kubeflow"
     date: "2023-12-24"
@@ -109,18 +98,12 @@ pastEvents:
 
 # ─── Upcoming Events ─────────────────────────────────────────────────────────
 upcomingEvents:
-  - title: "Cloud Native Meetup #7 — Platform Engineering"
-    date: "2025-07-12"
-    time: "09:00"
-    location: "Trace Expert City, Colombo"
+  - title: "June Meetup 2026"
+    date: "2025-06-04"
+    time: "18:00"
+    location: "WSO2, Colombo"
     description: "Exploring platform engineering patterns, internal developer platforms, and the tools that power them."
-    registerUrl: "https://community.cncf.io/events/details/cncf-cloud-native-sri-lanka"
-    cfpUrl: "https://sessionize.com/cncg-lk-meetup7"
-
-  - title: "KCD Sri Lanka 2025"
-    date: "2025-11-22"
-    location: "Colombo, Sri Lanka"
-    description: "Kubernetes Community Day Sri Lanka 2025 — bigger and better! Call for proposals open soon."
+    registerUrl: "https://ocgroups.dev/cncf/group/f8dnmxt/event/hkf8t4e"
 
 # ─── Blog Posts ──────────────────────────────────────────────────────────────
 blogPosts:
