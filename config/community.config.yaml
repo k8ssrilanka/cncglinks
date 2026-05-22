@@ -121,13 +121,13 @@ blogPosts:
 
   - title: "GitOps in Practice — Our KCD Talk Summary"
     url: "https://medium.com/@cncgsrilanka/gitops-in-practice"
-    author: "CNCG Sri Lanka"
+    author: "Kubernetes Sri Lanka"
     publishedAt: "2024-12-01"
     excerpt: "Key takeaways from our GitOps talk at KCD 2024, including real-world Argo CD patterns."
 
 # ─── SEO / Open Graph ────────────────────────────────────────────────────────
 seo:
-  title: "CNCG Sri Lanka — Community Links"
-  description: "Find all our events, resources, social links, and ways to get involved with the Cloud Native Community Group in Sri Lanka."
+  title: "Kuberbetes Sri Lanka — Community Links"
+  description: "Find all our events, resources, social links, and ways to get involved with the Kubernetes in Sri Lanka."
   ogImageUrl: "/og-image.png"
-  twitterHandle: "@cncgsrilanka"
+  twitterHandle: "@k8ssrilanka"
