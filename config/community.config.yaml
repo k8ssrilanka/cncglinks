@@ -12,8 +12,8 @@ community:
     We are a community of engineers, developers, and enthusiasts exploring
     Kubernetes, cloud-native technologies, and the CNCF ecosystem in Sri Lanka.
     Join us to learn, share, and grow together.
-  logoUrl: "/k8sssl-logo.png"
-  faviconUrl: "/favicon.ico"
+  logoUrl: "https://k8ssrilanka.github.io/cncglinks/k8sssl-logo.png"
+  faviconUrl: "https://k8ssrilanka.github.io/cncglinks/favicon.ico"
   themeColor: "#0F62FE"        # Used for CTA button and accent colours
 
 # ─── Social Media ────────────────────────────────────────────────────────────
