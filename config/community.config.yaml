@@ -12,42 +12,67 @@ community:
     We are a community of engineers, developers, and enthusiasts exploring
     Kubernetes, cloud-native technologies, and the CNCF ecosystem in Sri Lanka.
     Join us to learn, share, and grow together.
-  logoUrl: "/logo.png"         # Place your logo in /public/logo.png
-  faviconUrl: "/favicon.ico"
+  logoUrl: "https://github.com/k8ssrilanka/brand-assets/blob/main/colored%20logo.png"         # Place your logo in /public/logo.png
+  faviconUrl: "public/favicon.ico"
   themeColor: "#0F62FE"        # Used for CTA button and accent colours
 
 # ─── Social Media ────────────────────────────────────────────────────────────
 # Remove any line you don't have — its icon simply won't appear
 social:
-  instagram: "https://www.instagram.com/cncg.lk/"
-  facebook:  "https://www.facebook.com/cncgsrilanka"
-  linkedin:  "https://www.linkedin.com/company/cncg-sri-lanka"
-  youtube:   "https://www.youtube.com/@cncgsrilanka"
-  x:         "https://x.com/cncgsrilanka"
+  instagram: "https://www.instagram.com/k8ssrilanka"
+  facebook:  "https://www.facebook.com/k8ssrilanka"
+  linkedin:  "https://www.linkedin.com/company/k8ssrilanka"
+  youtube:   "https://www.youtube.com/@kubernetessrilanka"
+  x:         "https://x.com/k8ssrilanka"
 
 # ─── Custom Links ────────────────────────────────────────────────────────────
 links:
   - label: "CNCF Landscape"
     url: "https://landscape.cncf.io"
     icon: "🗺️"
-  - label: "Community Calendar"
-    url: "https://calendar.google.com/calendar/embed?src=cncgsrilanka%40gmail.com"
-    icon: "📅"
-  - label: "Slack Workspace"
-    url: "https://slack.cncf.io"
-    icon: "💬"
+  # - label: "Community Calendar"
+  #   url: "https://calendar.google.com/calendar/embed?src=cncgsrilanka%40gmail.com"
+  #   icon: "📅"
+  # - label: "Slack Workspace"
+  #   url: "https://slack.cncf.io"
+  #   icon: "💬"
   - label: "GitHub"
-    url: "https://github.com/cncg-srilanka"
+    url: "https://github.com/k8ssrilanka"
     icon: "🐙"
 
 # ─── Join CTA ────────────────────────────────────────────────────────────────
 joinCta:
   label: "Join our Community"
-  url: "https://community.cncf.io/cloud-native-sri-lanka/"
+  url: "https://ocgroups.dev/cncf/group/f8dnmxt"
   style: "primary"             # "primary" (filled) or "outline"
 
 # ─── Past Events ─────────────────────────────────────────────────────────────
 pastEvents:
+  - title: "Tech Layoffs: The Real Reason Is Not AI, It's Us"
+    date: "2026-04-25"
+    location: "University of Kelaniya, Kelaniya"
+    description: "Kemila De Silva discusses practical perspectives on tech industry workforce changes and the real drivers behind layoffs."
+
+  - title: "Cloud Native AI Meetup"
+    date: "2025-10-07"
+    location: "Hatch Works, Colombo"
+    description: "Exploring the intersection of Kubernetes and artificial intelligence technologies."
+
+  - title: "#cTENcf Birthday Bash Sri Lanka"
+    date: "2025-09-18"
+    location: "WSO2, Colombo"
+    description: "Celebrating the Cloud Native Computing Foundation's 10-year milestone and examining Kubernetes' role in cloud infrastructure."
+
+  - title: "KubeCon '24 After Party: Insights & Key Takeaways"
+    date: "2025-05-31"
+    location: "IIT Dialog Building, Colombo"
+    description: "Chamod and Kemila share significant takeaways from KubeCon conference proceedings in India."
+
+  - title: "10 Years of CNCF — Looking Back and Looking Forward"
+    date: "2025-01-31"
+    location: "Virtual"
+    description: "Examining transformative milestones from Kubernetes' inception through its development journey."
+
   - title: "KCD Sri Lanka 2024"
     date: "2024-11-15"
     location: "Colombo, Sri Lanka"
@@ -56,16 +81,31 @@ pastEvents:
     recordingUrl: "https://www.youtube.com/playlist?list=PLj6h78yzYM"
     slidesUrl: "https://speakerdeck.com/cncgsrilanka"
 
+  - title: "Kubeflow 101: Where ML Meets Kubernetes"
+    date: "2024-09-10"
+    location: "Virtual"
+    description: "Suresh presents the open-source platform combining machine learning capabilities with Kubernetes orchestration."
+
   - title: "Cloud Native Meetup #6 — GitOps with Argo CD"
     date: "2024-08-10"
     location: "WSO2, Colombo"
     description: "Hands-on workshop covering GitOps principles and Argo CD in practice."
     recordingUrl: "https://www.youtube.com/watch?v=example"
 
+  - title: "Behind the Scenes of Uwubernetes — A Conversation with Kat Cosgrove"
+    date: "2024-05-28"
+    location: "Virtual"
+    description: "Discussion featuring Kat Cosgrove sharing behind-the-scenes perspectives on Uwubernetes."
+
   - title: "Cloud Native Meetup #5 — Observability"
     date: "2024-05-18"
     location: "99x, Colombo"
     description: "Deep dive into observability with Prometheus, Grafana, and OpenTelemetry."
+
+  - title: "MLOps with Flyte/Kubeflow"
+    date: "2023-12-24"
+    location: "Virtual"
+    description: "Shivay Lamba, a WASM Ambassador, presents an insightful webinar on MLOps platforms with Flyte and Kubeflow."
 
 # ─── Upcoming Events ─────────────────────────────────────────────────────────
 upcomingEvents:
