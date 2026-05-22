@@ -9,12 +9,12 @@ export default function CommunityHeader({ community }: CommunityHeaderProps) {
   return (
     <header className="flex flex-col items-center text-center pt-12 pb-6 px-4">
       {community.logoUrl && (
-        <div className="relative w-24 h-24 mb-4 rounded-full overflow-hidden ring-4 ring-[var(--theme-color)] ring-offset-2">
+        <div className="relative w-28 h-28 mb-4 rounded-2xl p-3 bg-gray-700">
           <Image
             src={community.logoUrl}
             alt={`${community.name} logo`}
             fill
-            className="object-cover"
+            className="object-contain"
             priority
           />
         </div>

@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   images: {
     remotePatterns: [
+      // GitHub raw assets
+      { protocol: "https", hostname: "raw.githubusercontent.com" },
       // Medium cover images
       { protocol: "https", hostname: "miro.medium.com" },
       // Cloudinary (commonly used for event photos)
