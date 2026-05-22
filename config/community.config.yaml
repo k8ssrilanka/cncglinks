@@ -1,0 +1,110 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Community Link-in-Bio Config
+# Edit this file to customise your community's page.
+# All fields except community.name are optional.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ─── Community Identity ──────────────────────────────────────────────────────
+community:
+  name: "Cloud Native Community Groups — Sri Lanka"
+  tagline: "Building the future of cloud-native, together."
+  description: |
+    We are a community of engineers, developers, and enthusiasts exploring
+    Kubernetes, cloud-native technologies, and the CNCF ecosystem in Sri Lanka.
+    Join us to learn, share, and grow together.
+  logoUrl: "/logo.png"         # Place your logo in /public/logo.png
+  faviconUrl: "/favicon.ico"
+  themeColor: "#0F62FE"        # Used for CTA button and accent colours
+
+# ─── Social Media ────────────────────────────────────────────────────────────
+# Remove any line you don't have — its icon simply won't appear
+social:
+  instagram: "https://www.instagram.com/cncg.lk/"
+  facebook:  "https://www.facebook.com/cncgsrilanka"
+  linkedin:  "https://www.linkedin.com/company/cncg-sri-lanka"
+  youtube:   "https://www.youtube.com/@cncgsrilanka"
+  x:         "https://x.com/cncgsrilanka"
+
+# ─── Custom Links ────────────────────────────────────────────────────────────
+links:
+  - label: "CNCF Landscape"
+    url: "https://landscape.cncf.io"
+    icon: "🗺️"
+  - label: "Community Calendar"
+    url: "https://calendar.google.com/calendar/embed?src=cncgsrilanka%40gmail.com"
+    icon: "📅"
+  - label: "Slack Workspace"
+    url: "https://slack.cncf.io"
+    icon: "💬"
+  - label: "GitHub"
+    url: "https://github.com/cncg-srilanka"
+    icon: "🐙"
+
+# ─── Join CTA ────────────────────────────────────────────────────────────────
+joinCta:
+  label: "Join our Community"
+  url: "https://community.cncf.io/cloud-native-sri-lanka/"
+  style: "primary"             # "primary" (filled) or "outline"
+
+# ─── Past Events ─────────────────────────────────────────────────────────────
+pastEvents:
+  - title: "KCD Sri Lanka 2024"
+    date: "2024-11-15"
+    location: "Colombo, Sri Lanka"
+    description: "Kubernetes Community Day Sri Lanka — a full-day conference with talks, workshops, and networking. Sri Lanka's first KCD event!"
+    imageUrl: "/events/kcd2024.jpg"
+    recordingUrl: "https://www.youtube.com/playlist?list=PLj6h78yzYM"
+    slidesUrl: "https://speakerdeck.com/cncgsrilanka"
+
+  - title: "Cloud Native Meetup #6 — GitOps with Argo CD"
+    date: "2024-08-10"
+    location: "WSO2, Colombo"
+    description: "Hands-on workshop covering GitOps principles and Argo CD in practice."
+    recordingUrl: "https://www.youtube.com/watch?v=example"
+
+  - title: "Cloud Native Meetup #5 — Observability"
+    date: "2024-05-18"
+    location: "99x, Colombo"
+    description: "Deep dive into observability with Prometheus, Grafana, and OpenTelemetry."
+
+# ─── Upcoming Events ─────────────────────────────────────────────────────────
+upcomingEvents:
+  - title: "Cloud Native Meetup #7 — Platform Engineering"
+    date: "2025-07-12"
+    time: "09:00"
+    location: "Trace Expert City, Colombo"
+    description: "Exploring platform engineering patterns, internal developer platforms, and the tools that power them."
+    registerUrl: "https://community.cncf.io/events/details/cncf-cloud-native-sri-lanka"
+    cfpUrl: "https://sessionize.com/cncg-lk-meetup7"
+
+  - title: "KCD Sri Lanka 2025"
+    date: "2025-11-22"
+    location: "Colombo, Sri Lanka"
+    description: "Kubernetes Community Day Sri Lanka 2025 — bigger and better! Call for proposals open soon."
+
+# ─── Blog Posts ──────────────────────────────────────────────────────────────
+blogPosts:
+  - title: "KCD Sri Lanka 2024 — A Community Milestone"
+    url: "https://www.cncf.io/blog/2024/11/kcd-sri-lanka-2024-recap"
+    author: "CNCF Blog"
+    publishedAt: "2024-11-25"
+    excerpt: "A recap of Sri Lanka's first Kubernetes Community Day — the talks, the workshops, and what's next for the community."
+
+  - title: "Getting Started with Kubernetes on Your Laptop"
+    url: "https://medium.com/@cncgsrilanka/getting-started-kubernetes"
+    author: "Chamod Perera"
+    publishedAt: "2025-03-15"
+    excerpt: "A beginner-friendly walkthrough of running your first Kubernetes cluster locally using kind or minikube."
+
+  - title: "GitOps in Practice — Our KCD Talk Summary"
+    url: "https://medium.com/@cncgsrilanka/gitops-in-practice"
+    author: "CNCG Sri Lanka"
+    publishedAt: "2024-12-01"
+    excerpt: "Key takeaways from our GitOps talk at KCD 2024, including real-world Argo CD patterns."
+
+# ─── SEO / Open Graph ────────────────────────────────────────────────────────
+seo:
+  title: "CNCG Sri Lanka — Community Links"
+  description: "Find all our events, resources, social links, and ways to get involved with the Cloud Native Community Group in Sri Lanka."
+  ogImageUrl: "/og-image.png"
+  twitterHandle: "@cncgsrilanka"
